@@ -1,0 +1,5 @@
+{
+  "input_path": "./Data_Input/part-00000-a9e77425-5fb4-456f-ba52-f821123bd193-c000.snappy.parquet",
+  "output_path": "./Data_Output",
+  "input_avro_schema_path": "./Metadata/schema.json"
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Spark_demo",
+  "type": "record",
+  "field": [
+    {
+      "name": "id",
+      "type": "int",
+      "output_field_name": "Id",
+      "transformations": {
+        "nativeDataType": "int"
+      }
+    },
+    {
+      "name": "first_name",
+      "type": "string",
+      "output_field_name": "first_Name",
+      "transformations": {
+        "nativeDataType": "string"
+      }
+    },
+    {
+      "name": "last_name",
+      "type": "string",
+      "output_field_name": "last_Name",
+      "transformations": {
+        "nativeDataType": "string"
+      }
+    },
+    {
+      "name": "email",
+      "type": "string",
+      "output_field_name": "email",
+      "transformations": {
+        "nativeDataType": "string"
+      }
+    },
+    {
+      "name": "gender",
+      "type": "string",
+      "output_field_name": "gender",
+      "transformations": {
+        "nativeDataType": "string"
+      }
+    },
+    {
+      "name": "ip_Address",
+      "type": "string",
+      "output_field_name": "ip_Address",
+      "transformations": {
+        "nativeDataType": "string"
+      }
+    },
+    {
+      "name": "cc",
+      "type": "string",
+      "output_field_name": "cc",
+      "transformations": {
+        "nativeDataType": "string"
+      }
+    },
+    {
+      "name": "country",
+      "type": "string",
+      "output_field_name": "country",
+      "transformations": {
+        "nativeDataType": "string"
+      }
+    },
+    {
+      "name": "birthdate",
+      "type": "string",
+      "output_field_name": "birthdate",
+      "transformations": {
+        "nativeDataType": "string"
+      }
+    },
+    {
+      "name": "salary",
+      "type": "string",
+      "output_field_name": "salary",
+      "transformations": {
+        "harmonization": "CHANGE_DATA_TYPE",
+        "nativeDataType": "string"
+      }
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "output_field_name": "title",
+      "transformations": {
+        "nativeDataType": "string"
+      }
+    },
+    {
+      "name": "comments",
+      "type": "string",
+      "output_field_name": "comments",
+      "transformations": {
+        "nativeDataType": "string"
+      }
+    }
+  ]
+}
